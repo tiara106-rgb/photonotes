@@ -1,0 +1,106 @@
+/* Mengatur font dan margin dasar */
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#F5F0FA;
+}
+
+/* Header */
+header{
+    background-color:#8A6FB5;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* Logo */
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+/* Menu navigasi */
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#121213;
+}
+
+/* Hero section */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background-color:#E9DFF5;
+}
+
+.hero img{
+    margin-top:20px;
+    border-radius:10px;
+}
+
+/* Section layanan */
+.service{
+    text-align:center;
+    padding:50px 20px;
+}
+
+/* Card layanan */
+.card{
+    display:inline-block;
+    background:#FFFFFF;
+    margin:15px;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img{
+    margin-bottom:10px;
+}
+
+/* Section kontak */
+.kontak{
+    text-align:center;
+    background:#E9DFF5;
+    padding:50px 20px;
+}
+
+.kontak input,
+.kontak textarea{
+    width:250px;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.kontak button{
+    padding:10px 20px;
+    background:#b192de;
+    border:none;
+    color:#333333;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.kontak button:hover{
+    background:#7B5AA6;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    background:#8A6FB5;
+    color:#333333;
+    padding:15px;
+    margin-top:20px;
+}
